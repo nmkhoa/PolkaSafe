@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFDFFCB32682E301000020AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFFCB22682E301000020AD /* AppDelegate.swift */; };
+		AFDFFCB52682E301000020AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFFCB42682E301000020AD /* SceneDelegate.swift */; };
+		AFDFFCB72682E301000020AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFFCB62682E301000020AD /* ViewController.swift */; };
+		AFDFFCBA2682E301000020AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDFFCB82682E301000020AD /* Main.storyboard */; };
+		AFDFFCBC2682E304000020AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDFFCBB2682E304000020AD /* Assets.xcassets */; };
+		AFDFFCBF2682E304000020AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDFFCBD2682E304000020AD /* LaunchScreen.storyboard */; };
+		AFDFFCCA2682E304000020AD /* PolkaSafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFFCC92682E304000020AD /* PolkaSafeTests.swift */; };
+		AFDFFCD52682E304000020AD /* PolkaSafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFFCD42682E304000020AD /* PolkaSafeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFDFFCC62682E304000020AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDFFCA72682E301000020AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDFFCAE2682E301000020AD;
+			remoteInfo = PolkaSafe;
+		};
+		AFDFFCD12682E304000020AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDFFCA72682E301000020AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDFFCAE2682E301000020AD;
+			remoteInfo = PolkaSafe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFDFFCAF2682E301000020AD /* PolkaSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolkaSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDFFCB22682E301000020AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFDFFCB42682E301000020AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AFDFFCB62682E301000020AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFDFFCB92682E301000020AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFDFFCBB2682E304000020AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFDFFCBE2682E304000020AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFDFFCC02682E304000020AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDFFCC52682E304000020AD /* PolkaSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolkaSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDFFCC92682E304000020AD /* PolkaSafeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolkaSafeTests.swift; sourceTree = "<group>"; };
+		AFDFFCCB2682E304000020AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDFFCD02682E304000020AD /* PolkaSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolkaSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDFFCD42682E304000020AD /* PolkaSafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolkaSafeUITests.swift; sourceTree = "<group>"; };
+		AFDFFCD62682E304000020AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDFFCAC2682E301000020AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDFFCC22682E304000020AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDFFCCD2682E304000020AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFDFFCA62682E301000020AD = {
+			isa = PBXGroup;
+			children = (
+				AFDFFCB12682E301000020AD /* PolkaSafe */,
+				AFDFFCC82682E304000020AD /* PolkaSafeTests */,
+				AFDFFCD32682E304000020AD /* PolkaSafeUITests */,
+				AFDFFCB02682E301000020AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDFFCB02682E301000020AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDFFCAF2682E301000020AD /* PolkaSafe.app */,
+				AFDFFCC52682E304000020AD /* PolkaSafeTests.xctest */,
+				AFDFFCD02682E304000020AD /* PolkaSafeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDFFCB12682E301000020AD /* PolkaSafe */ = {
+			isa = PBXGroup;
+			children = (
+				AFDFFCB22682E301000020AD /* AppDelegate.swift */,
+				AFDFFCB42682E301000020AD /* SceneDelegate.swift */,
+				AFDFFCB62682E301000020AD /* ViewController.swift */,
+				AFDFFCB82682E301000020AD /* Main.storyboard */,
+				AFDFFCBB2682E304000020AD /* Assets.xcassets */,
+				AFDFFCBD2682E304000020AD /* LaunchScreen.storyboard */,
+				AFDFFCC02682E304000020AD /* Info.plist */,
+			);
+			path = PolkaSafe;
+			sourceTree = "<group>";
+		};
+		AFDFFCC82682E304000020AD /* PolkaSafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDFFCC92682E304000020AD /* PolkaSafeTests.swift */,
+				AFDFFCCB2682E304000020AD /* Info.plist */,
+			);
+			path = PolkaSafeTests;
+			sourceTree = "<group>";
+		};
+		AFDFFCD32682E304000020AD /* PolkaSafeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDFFCD42682E304000020AD /* PolkaSafeUITests.swift */,
+				AFDFFCD62682E304000020AD /* Info.plist */,
+			);
+			path = PolkaSafeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDFFCAE2682E301000020AD /* PolkaSafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDFFCD92682E304000020AD /* Build configuration list for PBXNativeTarget "PolkaSafe" */;
+			buildPhases = (
+				AFDFFCAB2682E301000020AD /* Sources */,
+				AFDFFCAC2682E301000020AD /* Frameworks */,
+				AFDFFCAD2682E301000020AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolkaSafe;
+			productName = PolkaSafe;
+			productReference = AFDFFCAF2682E301000020AD /* PolkaSafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFDFFCC42682E304000020AD /* PolkaSafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDFFCDC2682E304000020AD /* Build configuration list for PBXNativeTarget "PolkaSafeTests" */;
+			buildPhases = (
+				AFDFFCC12682E304000020AD /* Sources */,
+				AFDFFCC22682E304000020AD /* Frameworks */,
+				AFDFFCC32682E304000020AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDFFCC72682E304000020AD /* PBXTargetDependency */,
+			);
+			name = PolkaSafeTests;
+			productName = PolkaSafeTests;
+			productReference = AFDFFCC52682E304000020AD /* PolkaSafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFDFFCCF2682E304000020AD /* PolkaSafeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDFFCDF2682E304000020AD /* Build configuration list for PBXNativeTarget "PolkaSafeUITests" */;
+			buildPhases = (
+				AFDFFCCC2682E304000020AD /* Sources */,
+				AFDFFCCD2682E304000020AD /* Frameworks */,
+				AFDFFCCE2682E304000020AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDFFCD22682E304000020AD /* PBXTargetDependency */,
+			);
+			name = PolkaSafeUITests;
+			productName = PolkaSafeUITests;
+			productReference = AFDFFCD02682E304000020AD /* PolkaSafeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDFFCA72682E301000020AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AFDFFCAE2682E301000020AD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					AFDFFCC42682E304000020AD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = AFDFFCAE2682E301000020AD;
+					};
+					AFDFFCCF2682E304000020AD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = AFDFFCAE2682E301000020AD;
+					};
+				};
+			};
+			buildConfigurationList = AFDFFCAA2682E301000020AD /* Build configuration list for PBXProject "PolkaSafe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFDFFCA62682E301000020AD;
+			productRefGroup = AFDFFCB02682E301000020AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDFFCAE2682E301000020AD /* PolkaSafe */,
+				AFDFFCC42682E304000020AD /* PolkaSafeTests */,
+				AFDFFCCF2682E304000020AD /* PolkaSafeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFDFFCAD2682E301000020AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDFFCBF2682E304000020AD /* LaunchScreen.storyboard in Resources */,
+				AFDFFCBC2682E304000020AD /* Assets.xcassets in Resources */,
+				AFDFFCBA2682E301000020AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDFFCC32682E304000020AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDFFCCE2682E304000020AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDFFCAB2682E301000020AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDFFCB72682E301000020AD /* ViewController.swift in Sources */,
+				AFDFFCB32682E301000020AD /* AppDelegate.swift in Sources */,
+				AFDFFCB52682E301000020AD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDFFCC12682E304000020AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDFFCCA2682E304000020AD /* PolkaSafeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDFFCCC2682E304000020AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDFFCD52682E304000020AD /* PolkaSafeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFDFFCC72682E304000020AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDFFCAE2682E301000020AD /* PolkaSafe */;
+			targetProxy = AFDFFCC62682E304000020AD /* PBXContainerItemProxy */;
+		};
+		AFDFFCD22682E304000020AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDFFCAE2682E301000020AD /* PolkaSafe */;
+			targetProxy = AFDFFCD12682E304000020AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFDFFCB82682E301000020AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDFFCB92682E301000020AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFDFFCBD2682E304000020AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFDFFCBE2682E304000020AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFDFFCD72682E304000020AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFDFFCD82682E304000020AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFDFFCDA2682E304000020AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MV7LUBN5J;
+				INFOPLIST_FILE = PolkaSafe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.icetea.polkasafe.PolkaSafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFDFFCDB2682E304000020AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MV7LUBN5J;
+				INFOPLIST_FILE = PolkaSafe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.icetea.polkasafe.PolkaSafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFDFFCDD2682E304000020AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MV7LUBN5J;
+				INFOPLIST_FILE = PolkaSafeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.icetea.polkasafe.PolkaSafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolkaSafe.app/PolkaSafe";
+			};
+			name = Debug;
+		};
+		AFDFFCDE2682E304000020AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MV7LUBN5J;
+				INFOPLIST_FILE = PolkaSafeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.icetea.polkasafe.PolkaSafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolkaSafe.app/PolkaSafe";
+			};
+			name = Release;
+		};
+		AFDFFCE02682E304000020AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MV7LUBN5J;
+				INFOPLIST_FILE = PolkaSafeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.icetea.polkasafe.PolkaSafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PolkaSafe;
+			};
+			name = Debug;
+		};
+		AFDFFCE12682E304000020AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2MV7LUBN5J;
+				INFOPLIST_FILE = PolkaSafeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.icetea.polkasafe.PolkaSafeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PolkaSafe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDFFCAA2682E301000020AD /* Build configuration list for PBXProject "PolkaSafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDFFCD72682E304000020AD /* Debug */,
+				AFDFFCD82682E304000020AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDFFCD92682E304000020AD /* Build configuration list for PBXNativeTarget "PolkaSafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDFFCDA2682E304000020AD /* Debug */,
+				AFDFFCDB2682E304000020AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDFFCDC2682E304000020AD /* Build configuration list for PBXNativeTarget "PolkaSafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDFFCDD2682E304000020AD /* Debug */,
+				AFDFFCDE2682E304000020AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDFFCDF2682E304000020AD /* Build configuration list for PBXNativeTarget "PolkaSafeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDFFCE02682E304000020AD /* Debug */,
+				AFDFFCE12682E304000020AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFDFFCA72682E301000020AD /* Project object */;
+}

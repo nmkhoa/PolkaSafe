@@ -1,0 +1,6 @@
+framework module Pods_PolkaSafe {
+  umbrella header "Pods-PolkaSafe-umbrella.h"
+
+  export *
+  module * { export * }
+}

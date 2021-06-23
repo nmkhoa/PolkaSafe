@@ -1,0 +1,6 @@
+framework module Pods_PolkaSafe_PolkaSafeUITests {
+  umbrella header "Pods-PolkaSafe-PolkaSafeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

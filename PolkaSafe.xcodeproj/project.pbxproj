@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A905C36C7276911C944A5FE /* Pods_PolkaSafeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9393DE31878809A5D4BC380A /* Pods_PolkaSafeTests.framework */; };
+		576638DA6D6DD4EA14606011 /* Pods_PolkaSafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38270ECACE1B24C63C5A4805 /* Pods_PolkaSafe.framework */; };
 		AFDFFCB32682E301000020AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFFCB22682E301000020AD /* AppDelegate.swift */; };
 		AFDFFCB52682E301000020AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFFCB42682E301000020AD /* SceneDelegate.swift */; };
 		AFDFFCB72682E301000020AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFFCB62682E301000020AD /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		AFDFFCBF2682E304000020AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFDFFCBD2682E304000020AD /* LaunchScreen.storyboard */; };
 		AFDFFCCA2682E304000020AD /* PolkaSafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFFCC92682E304000020AD /* PolkaSafeTests.swift */; };
 		AFDFFCD52682E304000020AD /* PolkaSafeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFFCD42682E304000020AD /* PolkaSafeUITests.swift */; };
+		BBE1DC0E59B57B08B76FA5D6 /* Pods_PolkaSafe_PolkaSafeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0946BFC397A8735F561B4288 /* Pods_PolkaSafe_PolkaSafeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0946BFC397A8735F561B4288 /* Pods_PolkaSafe_PolkaSafeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PolkaSafe_PolkaSafeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B274D4F14E4314740F24EAA /* Pods-PolkaSafeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolkaSafeTests.release.xcconfig"; path = "Target Support Files/Pods-PolkaSafeTests/Pods-PolkaSafeTests.release.xcconfig"; sourceTree = "<group>"; };
+		38270ECACE1B24C63C5A4805 /* Pods_PolkaSafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PolkaSafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6173883EC3AF9582BA0868 /* Pods-PolkaSafe-PolkaSafeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolkaSafe-PolkaSafeUITests.release.xcconfig"; path = "Target Support Files/Pods-PolkaSafe-PolkaSafeUITests/Pods-PolkaSafe-PolkaSafeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		64EE90F12F37433547CB6666 /* Pods-PolkaSafeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolkaSafeTests.debug.xcconfig"; path = "Target Support Files/Pods-PolkaSafeTests/Pods-PolkaSafeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C8DDCC3FA338B0C1D62A81B /* Pods-PolkaSafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolkaSafe.release.xcconfig"; path = "Target Support Files/Pods-PolkaSafe/Pods-PolkaSafe.release.xcconfig"; sourceTree = "<group>"; };
+		9393DE31878809A5D4BC380A /* Pods_PolkaSafeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PolkaSafeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA5437CFEF56E76AF378C08 /* Pods-PolkaSafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolkaSafe.debug.xcconfig"; path = "Target Support Files/Pods-PolkaSafe/Pods-PolkaSafe.debug.xcconfig"; sourceTree = "<group>"; };
 		AFDFFCAF2682E301000020AD /* PolkaSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolkaSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDFFCB22682E301000020AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFDFFCB42682E301000020AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		AFDFFCD02682E304000020AD /* PolkaSafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolkaSafeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDFFCD42682E304000020AD /* PolkaSafeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolkaSafeUITests.swift; sourceTree = "<group>"; };
 		AFDFFCD62682E304000020AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0354C77B994C440677AA9E /* Pods-PolkaSafe-PolkaSafeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolkaSafe-PolkaSafeUITests.debug.xcconfig"; path = "Target Support Files/Pods-PolkaSafe-PolkaSafeUITests/Pods-PolkaSafe-PolkaSafeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576638DA6D6DD4EA14606011 /* Pods_PolkaSafe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A905C36C7276911C944A5FE /* Pods_PolkaSafeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE1DC0E59B57B08B76FA5D6 /* Pods_PolkaSafe_PolkaSafeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30A296EA666428005A323D74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38270ECACE1B24C63C5A4805 /* Pods_PolkaSafe.framework */,
+				0946BFC397A8735F561B4288 /* Pods_PolkaSafe_PolkaSafeUITests.framework */,
+				9393DE31878809A5D4BC380A /* Pods_PolkaSafeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54D08C267E5B0C37D2043780 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADA5437CFEF56E76AF378C08 /* Pods-PolkaSafe.debug.xcconfig */,
+				8C8DDCC3FA338B0C1D62A81B /* Pods-PolkaSafe.release.xcconfig */,
+				BF0354C77B994C440677AA9E /* Pods-PolkaSafe-PolkaSafeUITests.debug.xcconfig */,
+				5B6173883EC3AF9582BA0868 /* Pods-PolkaSafe-PolkaSafeUITests.release.xcconfig */,
+				64EE90F12F37433547CB6666 /* Pods-PolkaSafeTests.debug.xcconfig */,
+				1B274D4F14E4314740F24EAA /* Pods-PolkaSafeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AFDFFCA62682E301000020AD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +122,8 @@
 				AFDFFCC82682E304000020AD /* PolkaSafeTests */,
 				AFDFFCD32682E304000020AD /* PolkaSafeUITests */,
 				AFDFFCB02682E301000020AD /* Products */,
+				54D08C267E5B0C37D2043780 /* Pods */,
+				30A296EA666428005A323D74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFDFFCD92682E304000020AD /* Build configuration list for PBXNativeTarget "PolkaSafe" */;
 			buildPhases = (
+				62EFE9C455CBF800DD88B900 /* [CP] Check Pods Manifest.lock */,
 				AFDFFCAB2682E301000020AD /* Sources */,
 				AFDFFCAC2682E301000020AD /* Frameworks */,
 				AFDFFCAD2682E301000020AD /* Resources */,
+				99D91782E24F13B2DAF09DD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFDFFCDC2682E304000020AD /* Build configuration list for PBXNativeTarget "PolkaSafeTests" */;
 			buildPhases = (
+				090BAFBFB329BCBC5E688FCD /* [CP] Check Pods Manifest.lock */,
 				AFDFFCC12682E304000020AD /* Sources */,
 				AFDFFCC22682E304000020AD /* Frameworks */,
 				AFDFFCC32682E304000020AD /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFDFFCDF2682E304000020AD /* Build configuration list for PBXNativeTarget "PolkaSafeUITests" */;
 			buildPhases = (
+				67B1C96C6ED259E7248D64E7 /* [CP] Check Pods Manifest.lock */,
 				AFDFFCCC2682E304000020AD /* Sources */,
 				AFDFFCCD2682E304000020AD /* Frameworks */,
 				AFDFFCCE2682E304000020AD /* Resources */,
+				44E76C91FD854CE765D5D4F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		090BAFBFB329BCBC5E688FCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PolkaSafeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44E76C91FD854CE765D5D4F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PolkaSafe-PolkaSafeUITests/Pods-PolkaSafe-PolkaSafeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PolkaSafe-PolkaSafeUITests/Pods-PolkaSafe-PolkaSafeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PolkaSafe-PolkaSafeUITests/Pods-PolkaSafe-PolkaSafeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62EFE9C455CBF800DD88B900 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PolkaSafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67B1C96C6ED259E7248D64E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PolkaSafe-PolkaSafeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99D91782E24F13B2DAF09DD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PolkaSafe/Pods-PolkaSafe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PolkaSafe/Pods-PolkaSafe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PolkaSafe/Pods-PolkaSafe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AFDFFCAB2682E301000020AD /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		AFDFFCDA2682E304000020AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA5437CFEF56E76AF378C08 /* Pods-PolkaSafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		AFDFFCDB2682E304000020AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8DDCC3FA338B0C1D62A81B /* Pods-PolkaSafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		AFDFFCDD2682E304000020AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EE90F12F37433547CB6666 /* Pods-PolkaSafeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		AFDFFCDE2682E304000020AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B274D4F14E4314740F24EAA /* Pods-PolkaSafeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		AFDFFCE02682E304000020AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0354C77B994C440677AA9E /* Pods-PolkaSafe-PolkaSafeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		AFDFFCE12682E304000020AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6173883EC3AF9582BA0868 /* Pods-PolkaSafe-PolkaSafeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
